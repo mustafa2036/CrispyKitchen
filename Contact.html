@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispy Kitchen - Bootstrap 5 HTML Template</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="style/all.min.css">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!-- Custom File Css -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg py-4 navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="./Home.html">Crispy Kitchen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav order-lg-last ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <button id="open" class="nav-link btn nass text-white px-5 active" 
+                    aria-current="page" href="#home">Reservation</button>
+                </li>
+            </ul>
+            <div class="collapse order-lg-2 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link px-4 active" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="Story.html">Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="OurUpdate.html">Our Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <div id="form" class="form py-5 mx-auto px-3">
+        <span class="position-relative">
+            <i id="close" class="fas fa-close text-muted"></i>
+        </span>
+        <div class="container">
+            <h2 class="fw-bold mb-5">Reserve a table</h2>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <label for="user_name" class="text-muted fw-bold my-2">Full Name</label>
+                    <input id="user_name" type="text" placeholder="Your Name" class="form-control py-3 w-100">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="email" class="text-muted fw-bold my-2">Email Address</label>
+                    <input id="email" type="text" placeholder="Your@Email.com" class="form-control py-3 w-100">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="phone_number" class="text-muted fw-bold my-2">Phone Number</label>
+                    <input id="phone_number" type="number" placeholder="123-456-7890" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="number_person" class="text-muted fw-bold my-2">Number Of Persons</label>
+                    <input id="number_person" type="text" placeholder="12 Persons" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="date" class="text-muted fw-bold my-2">Date</label>
+                    <input id="date" type="date" placeholder="mm/dd/yyyy" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="time" class="text-muted fw-bold my-2">Time</label>
+                    <input id="time" type="time" placeholder="5:00pm" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="request" class="text-muted fw-bold my-2">Special Request</label>
+                    <textarea id="request" class="form-control py-3 w-100"></textarea>
+                </div>
+            </div>
+            <button class="btn mt-3 py-2 px-4 btn-dark">Sumbit Request</button>
+        </div>
+        
+    </div>
+    <!-- Start Contact -->
+    <section class="contact bg-images position-relative">
+        <div class="overlay position-absolute">
+            <div class="d-flex h-90 justify-content-center align-items-center">
+                <div class="content text-white text-center">
+                    <h1 class="bold">Say Hi</h1>
+                    <p class="fw-bold">We are happy to get in touch with you</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Contact -->
+
+    <section class="leave py-5">
+        <div class="container">
+            <div class="content my-5">
+                <h2>Leave a message</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <label for="first_name" class="text-muted fw-bold my-2">Full Name</label>
+                            <input id="first_name" type="text" placeholder="Your Name" class="form-control py-3 w-100">
+                        </div>
+                        <div class="col-lg-6">
+                            <label for="phone" class="text-muted fw-bold my-2">Phone Number</label>
+                            <input id="phone" type="number" placeholder="123-456-7890" class="form-control py-3 w-100">
+                        </div>
+                        <div class="col-lg-12">
+                            <label for="user_email" class="text-muted fw-bold my-2">Email Address</label>
+                            <input id="user_email" type="text" placeholder="Your@Email.com" class="form-control py-3 w-100">
+                        </div>
+                        <div class="col-lg-12">
+                            <label for="user_request" class="text-muted fw-bold my-2">Message</label>
+                            <textarea id="user_request" placeholder="Your Message" class="form-control py-3 w-100"></textarea>
+                        </div>
+                        <div class="offset-lg-6 col-lg-6">
+                            <button class="btn border-0 mt-3 w-100 py-3 px-4 btn-dark">Send</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 offset-md-2 py-5">
+                    <div class="row">
+                        <h3 class="fw-bold">Weekdays</h3>
+                        <div class="col-lg-6">
+                            <p class="text-muted fs-5">Monday to Friday</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="text-muted fs-5">10:00 AM - 08:00 PM</p>
+                        </div>
+                        <h3 class="fw-bold">Weekends</h3>
+                        <div class="col-lg-6">
+                            <p class="text-muted fs-5">Saturday and Sunday</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="text-muted fs-5">11:00 AM - 11:00 PM</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <h3 class="my-5 fw-bold">121 Einstein Loop N, Bronx, NY 10475, United States</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110532.
+                    7297402892!2d31.303293561901093!3d30.032617220811822!2m3!1f0!2f0!3f0!3m2!1i1024!
+                    2i768!4f13.1!3m3!1m2!1s0x14583c1380cba7ef%3A0xd541260e9e06978d!2sNasr%20City%2C%20C
+                    airo%20Governorate!5e0!3m2!1sen!2seg!4v1659187531981!5m2!1sen!2seg" 
+                    height="350" class="w-100" allowfullscreen="" loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Start Footer -->
+    <footer class="position-relative py-5">
+        <div class="overlay py-5">
+            <div class="container">
+                    <div class="content my-5 text-white">
+                        <h2>Crispy Kitchen</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="box-info text-white">
+                                <h5 class="mb-4 fw-bold h4">Location</h5>
+                                <p class="text-muted">121 Einstein Loop N, Bronx, NY 10475, United States</p>
+                                <a href="#home" class="btn custom-btn py-3 px-5 border-0">Directions</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box-info text-white">
+                                <h5 class="mb-4 fw-bold h4">Opening Hours</h5>
+                                <p class="text-muted fw-bolder fs-6">Monday - Friday</p>
+                                <p class="text-muted fw-bolder fs-6">10:00 AM - 08:00 PM</p>
+                                <span class="text-muted fs-6">Tel: </span>
+                                <a href="#home" class="py-3 title text-muted fw-bolder fs-6 border-0">011-24-780-896</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box-info text-white">
+                                <h5 class="mb-4 fw-bold h4">Social</h5>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-facebook"></i> </a>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-instagram"></i> </a>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-twitter"></i> </a>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-youtube"></i> </a>
+                                <p class="text-muted fw-bolder fs-5 mt-5">Copyright © 2022 Crispy Kitchen Co., Ltd.</p>
+                                <span class="text-muted fs-5">Design: </span>
+                                <a href="#home" class="py-3 title text-muted fw-bolder fs-6 border-0">Tooplate</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Landing Page -->
+    <section id="landing">
+        <div class="lds-hourglass"></div>
+    </section>
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Custom File Jquery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Custom File Js -->
+    <script src="js/main.js"></script>
+</body>
+</html>

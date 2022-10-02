@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispy Kitchen - Bootstrap 5 HTML Template</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="style/all.min.css">
+    <!-- Swiper Cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!-- Custom File Css -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg py-4 navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="./Home.html">Crispy Kitchen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav order-lg-last ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <button id="open" class="nav-link btn nass text-white px-5 active" 
+                    aria-current="page" href="#home">Reservation</button>
+                </li>
+            </ul>
+            <div class="collapse order-lg-2 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link px-4 active" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="Story.html">Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="OurUpdate.html">Our Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <div id="form" class="form py-5 mx-auto px-3">
+        <span class="position-relative">
+            <i id="close" class="fas fa-close text-muted"></i>
+        </span>
+        <div class="container">
+            <h2 class="fw-bold mb-5">Reserve a table</h2>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <label for="user_name" class="text-muted fw-bold my-2">Full Name</label>
+                    <input id="user_name" type="text" placeholder="Your Name" class="form-control py-3 w-100">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="email" class="text-muted fw-bold my-2">Email Address</label>
+                    <input id="email" type="text" placeholder="Your@Email.com" class="form-control py-3 w-100">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="phone_number" class="text-muted fw-bold my-2">Phone Number</label>
+                    <input id="phone_number" type="number" placeholder="123-456-7890" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="number_person" class="text-muted fw-bold my-2">Number Of Persons</label>
+                    <input id="number_person" type="text" placeholder="12 Persons" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="date" class="text-muted fw-bold my-2">Date</label>
+                    <input id="date" type="date" placeholder="mm/dd/yyyy" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="time" class="text-muted fw-bold my-2">Time</label>
+                    <input id="time" type="time" placeholder="5:00pm" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="request" class="text-muted fw-bold my-2">Special Request</label>
+                    <textarea id="request" class="form-control py-3 w-100"></textarea>
+                </div>
+            </div>
+            <button class="btn mt-3 py-2 px-4 btn-dark">Sumbit Request</button>
+        </div>
+        
+    </div>
+    <!-- Start Home -->
+    <section id="home" class="">
+        <div class="home">
+            <div class="home-video">
+                <video autoPlay muted loop class='custom-video'>
+                    <source src='video/production_ID_3769033.mp4' />
+                </video>
+            </div>
+            <div class="overlay">
+                <div class="container">
+                  <div class="row align-items-center vh-100">
+                    <div class="col-md-6">
+                        <div class="box">
+                            <div class='box-content mb-4'>
+                                <h3 class="fw-bold">Delicious <br> Steaks</h3>
+                            </div>
+                            <span class="text-white">4.4/5 </span> 
+                            <i class="fa-solid ps-2 fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <p class="text-muted">From <span> 1,206+ </span> Customer Reviews</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                  <div class="swiper text-white position-relative">
+                                      <img src="images/slide/ivan-torres-MQUqbmszGGM-unsplash.jpg" class='w-100' alt="" />
+                                    <div class="home-content px-3 py-3">
+                                            <h3 class="fw-bold">Sausage Pasta</h3>
+                                            <p>$12.50</p>
+                                            <span class="fw-bold fs-4">4.3/5</span>
+                                            <i class="fa-solid ps-2 fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star-half-stroke"></i>
+                                        </div>
+                                  </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper text-white position-relative">
+                                        <img src="images/slide/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class='w-100 h-100' alt="" />
+                                        <div class="home-content px-3 py-3">
+                                            <i class="fa-solid px-2 fa-location-dot"></i>
+                                            <span class="fs-5 fw-bold">Manhattan, New York</span>
+                                            <h4 class="fw-bold mt-2">Fine Dining Restaurant</h4>
+                                        </div>
+                                      </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="swiper text-white position-relative">
+                                        <img src="images/slide/jason-leung-O67LZfeyYBk-unsplash.jpg" class='w-100' alt="" />
+                                      <div class="home-content px-3 py-3">
+                                              <h3 class="fw-bold text-dark">Steak</h3>
+                                              <p>$26.50</p>
+                                              <span class="fw-bold fs-4">3.8/5</span>
+                                              <i class="fa-solid ps-2 fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star"></i>
+                                              <i class="fa-solid fa-star-half-stroke"></i>
+                                              <i class="fa-solid fa-star-half-stroke"></i>
+                                          </div>
+                                    </div>
+                                  </div>
+                            </div>
+                            <div class="swiper-button-next" id="next"></div>
+                            <div class="swiper-button-prev" id="prev"></div>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Home -->
+    <!-- Start Menu -->
+    <section class="menus py-5 bg-light">
+       <div class="content my-5 text-center">
+        <h2>Special Menus</h2>
+       </div>
+        <div class="container">
+            <div class="row gy-3">
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" alt="">
+                        <span class="mx-2 mt-3 p-2">Breakfast</span>
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Morning Fresh</h3>
+                        <p>$12.50</p>
+                        <span class="bolder">4.3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">102 Reviews</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/lunch/farhad-ibrahimzade-MGKqxm6u2bc-unsplash.jpg" alt="">
+                        <span class="mx-2 mt-3 p-2">Lunch</span>
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Tooplate Soup</h3>
+                        <p>$24.50</p>
+                        <span class="bolder">3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">50 Reviews</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" alt="">
+                        <span class="mx-2 mt-3 p-2">Dinner</span>
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Premium Steak</h3>
+                        <p>$45</p>
+                        <span class="bolder">3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">86 Reviews</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg" alt="">
+                        <span class="mx-2 mt-3 p-2">Dinner</span>
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Seafood Set</h3>
+                        <p>$86</p>
+                        <span class="bolder">3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">44 Reviews</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" alt="">
+                        <span class="mx-2 mt-3 p-2">Breakfast</span>
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Burger Set</h3>
+                        <p>$20.50</p>
+                        <span class="bolder">4.3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">102 Reviews</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/lunch/farhad-ibrahimzade-D5c9ZciQy_I-unsplash.jpg" alt="">
+                        <span class="mx-2 mt-3 p-2">Lunch</span>
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Healthy Soup</h3>
+                        <p>$34.20</p>
+                        <span class="bolder">3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">64 Reviews</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Menu -->
+    <section class="bg-image vh-100 py-5"></section>
+    <!-- Start News -->
+    <section class="news py-5 bg-light">
+        <div class="content my-5 text-center">
+            <h2>News & Event</h2>
+        </div>
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-lg-6 col-12">
+                    <a href="OurUpdate.html">
+                        <div class="box-image position-relative">
+                            <img src="images/news/pablo-merchan-montes-Orz90t6o0e4-unsplash.jpg" class="w-100" alt="">
+                            <div class="news-content px-4 text-white py-4">
+                                <span class="py-1 mb-4 px-2">Featured</span>
+                                <h3 class="my-3">Healthy Lifestyle and happy living tips</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <a href="OurUpdate.html">
+                        <div class="box-image position-relative">
+                            <img src="images/news/stefan-johnson-xIFbDeGcy44-unsplash.jpg" class="w-100" alt="">
+                            <div class="news-content px-4 text-white py-4">
+                                <span class="py-1 mb-4 px-2">Featured</span>
+                                <h3 class="my-3">How to make a healthy meal</h3>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <a href="OurUpdate.html">
+                        <div class="box-image position-relative">
+                            <img src="images/news/gilles-lambert-S_LhjpfIdm4-unsplash.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="news-content px-4 text-dark py-4">
+                            <span class="py-1 mb-4 px-3 bg-info rounded-2 text-white">Promotions</span>
+                            <span class="px-3 fw-bold">8 April 2022</span>
+                            <a href="#home"> <h3 class="my-3 fw-bold hover">Is Coconut good for you?</h3></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <a href="OurUpdate.html">
+                        <div class="box-image position-relative">
+                            <img src="images/news/caroline-attwood-bpPTlXWTOvg-unsplash.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="news-content px-4 text-dark py-4">
+                            <span class="py-1 mb-4 px-3 bg-dark rounded-2 text-white">News</span>
+                            <a href="#home"> <h3 class="my-3 fw-bold hover">Salmon Steak Noodle</h3></a>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <a href="OurUpdate.html">
+                        <div class="box-image position-relative">
+                            <img src="images/news/louis-hansel-GiIiRV0FjwU-unsplash.jpg" class="w-100" alt="">
+                        </div>
+                        <div class="news-content px-4 text-dark py-4">
+                            <span class="py-1 mb-4 px-3 bg-info rounded-2 text-white">Meeting</span>
+                            <span class="px-3 fw-bold">8 April 2022</span>
+                            <a href="#home"> <h3 class="my-3 fw-bold hover">Making a healthy salad</h3></a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End News -->
+    <!-- Start Footer -->
+    <footer class="position-relative py-5">
+        <div class="overlay py-5">
+            <div class="container">
+                    <div class="content my-5 text-white">
+                        <h2>Crispy Kitchen</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4 col-12">
+                            <div class="box-info text-white">
+                                <h5 class="mb-4 fw-bold h4">Location</h5>
+                                <p class="text-muted">121 Einstein Loop N, Bronx, NY 10475, United States</p>
+                                <a href="#home" class="btn custom-btn py-3 px-5 border-0">Directions</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="box-info text-white">
+                                <h5 class="mb-4 fw-bold h4">Opening Hours</h5>
+                                <p class="text-muted fw-bolder fs-6">Monday - Friday</p>
+                                <p class="text-muted fw-bolder fs-6">10:00 AM - 08:00 PM</p>
+                                <span class="text-muted fs-6">Tel: </span>
+                                <a href="#home" class="py-3 title text-muted fw-bolder fs-6 border-0">011-24-780-896</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12">
+                            <div class="box-info text-white">
+                                <h5 class="mb-4 fw-bold h4">Social</h5>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-facebook"></i> </a>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-instagram"></i> </a>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-twitter"></i> </a>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-youtube"></i> </a>
+                                <p class="text-muted fw-bolder fs-5 mt-5">Copyright © 2022 Crispy Kitchen Co., Ltd.</p>
+                                <span class="text-muted fs-5">Design: </span>
+                                <a href="#home" class="py-3 title text-muted fw-bolder fs-6 border-0">Tooplate</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Landing Page -->
+    <section id="landing">
+        <div class="lds-hourglass"></div>
+    </section>
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Custom File Jquery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Custom File Js -->
+    <script src="js/main.js"></script>
+</body>
+</html>

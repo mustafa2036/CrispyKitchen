@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crispy Kitchen - Bootstrap 5 HTML Template</title>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="style/all.min.css">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <!-- Custom File Css -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg py-4 navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="./Home.html">Crispy Kitchen</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav order-lg-last ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <button id="open" class="nav-link btn nass text-white px-5 active" 
+                    aria-current="page" href="#home">Reservation</button>
+                </li>
+            </ul>
+            <div class="collapse order-lg-2 navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link px-4 active" aria-current="page" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="Story.html">Story</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="Menu.html">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="OurUpdate.html">Our Updates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-4" href="Contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+    <div id="form" class="form py-5 mx-auto px-3">
+        <span class="position-relative">
+            <i id="close" class="fas fa-close text-muted"></i>
+        </span>
+        <div class="container">
+            <h2 class="fw-bold mb-5">Reserve a table</h2>
+            <div class="row">
+                <div class="col-lg-6 col-12">
+                    <label for="user_name" class="text-muted fw-bold my-2">Full Name</label>
+                    <input id="user_name" type="text" placeholder="Your Name" class="form-control py-3 w-100">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="email" class="text-muted fw-bold my-2">Email Address</label>
+                    <input id="email" type="text" placeholder="Your@Email.com" class="form-control py-3 w-100">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="phone_number" class="text-muted fw-bold my-2">Phone Number</label>
+                    <input id="phone_number" type="number" placeholder="123-456-7890" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="number_person" class="text-muted fw-bold my-2">Number Of Persons</label>
+                    <input id="number_person" type="text" placeholder="12 Persons" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="date" class="text-muted fw-bold my-2">Date</label>
+                    <input id="date" type="date" placeholder="mm/dd/yyyy" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="time" class="text-muted fw-bold my-2">Time</label>
+                    <input id="time" type="time" placeholder="5:00pm" class="form-control py-3 w-100 ">
+                </div>
+                <div class="col-lg-6 col-12">
+                    <label for="request" class="text-muted fw-bold my-2">Special Request</label>
+                    <textarea id="request" class="form-control py-3 w-100"></textarea>
+                </div>
+            </div>
+            <button class="btn mt-3 py-2 px-4 btn-dark">Sumbit Request</button>
+        </div>
+        
+    </div>
+    <!-- Start Story -->
+    <section class="menu bg-images position-relative">
+        <div class="overlay position-absolute">
+            <div class="d-flex h-90 justify-content-center align-items-center">
+                <div class="content text-white text-center">
+                    <h1 class="bold">Our Menus</h1>
+                    <p class="fw-bold">Perfect for all Breakfast, Lunch and Dinner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Story -->
+    <!-- Start BreakFast -->
+    <section class="breakfast bg-light py-5" id="breakfast">
+        <div class="container">
+            <div class="content my-5">
+                <h2>Breakfast Menu</h2>
+            </div>
+            <div class="row gy-3">  
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/breakfast/brett-jordan-8xt8-HIFqc8-unsplash.jpg" alt="">
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Fresh Start</h3>
+                        <p>$24.50</p>
+                        <span class="bolder">4.3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">128 Reviews</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/breakfast/lucas-swennen-1W_MyJSRLuQ-unsplash.jpg" alt="">
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Baked Creamy</h3>
+                        <p>$16.50</p>
+                        <span class="bolder">3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">64 Reviews</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/breakfast/louis-hansel-dphM2U1xq0U-unsplash.jpg" alt="">
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Burger Set</h3>
+                        <p>$24.50</p>
+                        <span class="bolder">3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">32 Reviews</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End BreakFast -->
+    <!-- Start Lunch -->
+    <section class="lunch py-5" id="lunch">
+        <div class="container">
+            <div class="content my-5">
+                <h2>Lunch Menu</h2>
+            </div>
+            <div class="row gy-3">  
+                <div class="col-lg-6 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images//lunch/louis-hansel-cH5IPjaAYyo-unsplash.jpg" alt="">
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Super Steak Set</h3>
+                        <p>$32.75</p>
+                        <span class="bolder">4.2/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">66 Reviews</span>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/lunch/louis-hansel-rheOvfxOlOA-unsplash.jpg" alt="">
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Bread & Steak Set</h3>
+                        <p>$42.50</p>
+                        <span class="bolder">3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">84 Reviews</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Lunch -->
+    <!-- Start Dinner -->
+    <section class="dinner bg-light py-5" id="dinner">
+        <div class="container">
+            <div class="content my-5">
+                <h2>Dinner Menu</h2>
+            </div>
+            <div class="row gy-3">  
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/dinner/farhad-ibrahimzade-ZipYER3NLhY-unsplash.jpg" alt="">
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Seafood Set</h3>
+                        <p>$65.50</p>
+                        <span class="bolder">4.4/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">102 Reviews</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/dinner/keriliwi-c3mFafsFz2w-unsplash.jpg" alt="">
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Premium Steak</h3>
+                        <p>$74.75</p>
+                        <span class="bolder">3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">56 Reviews</span>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="img position-relative">
+                        <img class="w-100" src="images/dinner/farhad-ibrahimzade-isHUj3N0194-unsplash.jpg" alt="">
+                    </div>
+                    <div class="menu-content px-3 py-3">
+                        <h3>Salmon Set</h3>
+                        <p>$60</p>
+                        <span class="bolder">3/5</span>
+                        <i class="fa-solid ps-2 fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half-stroke"></i>
+                        <span class="text-muted ps-3">76 Reviews</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Dinner -->
+    <!-- Start Footer -->
+    <footer class="position-relative py-5">
+        <div class="overlay py-5">
+            <div class="container">
+                    <div class="content my-5 text-white">
+                        <h2>Crispy Kitchen</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="box-info text-white">
+                                <h5 class="mb-4 fw-bold h4">Location</h5>
+                                <p class="text-muted">121 Einstein Loop N, Bronx, NY 10475, United States</p>
+                                <a href="#home" class="btn custom-btn py-3 px-5 border-0">Directions</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box-info text-white">
+                                <h5 class="mb-4 fw-bold h4">Opening Hours</h5>
+                                <p class="text-muted fw-bolder fs-6">Monday - Friday</p>
+                                <p class="text-muted fw-bolder fs-6">10:00 AM - 08:00 PM</p>
+                                <span class="text-muted fs-6">Tel: </span>
+                                <a href="#home" class="py-3 title text-muted fw-bolder fs-6 border-0">011-24-780-896</a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="box-info text-white">
+                                <h5 class="mb-4 fw-bold h4">Social</h5>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-facebook"></i> </a>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-instagram"></i> </a>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-twitter"></i> </a>
+                                <a href="#" class="text-muted fs-6 my-5"> <i class="fab social fs-5 px-2 text-muted fa-youtube"></i> </a>
+                                <p class="text-muted fw-bolder fs-5 mt-5">Copyright © 2022 Crispy Kitchen Co., Ltd.</p>
+                                <span class="text-muted fs-5">Design: </span>
+                                <a href="#home" class="py-3 title text-muted fw-bolder fs-6 border-0">Tooplate</a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- Landing Page -->
+    <section id="landing">
+        <div class="lds-hourglass"></div>
+    </section>
+    <!-- Bootstrap Js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Swiper Js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- Custom File Jquery -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <!-- Custom File Js -->
+    <script src="js/main.js"></script>
+</body>
+</html>
