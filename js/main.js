@@ -10,8 +10,8 @@ closeForm.addEventListener('click' , () => {
 })
 
 $(document).ready(function () {
-  $(".lds-hourglass").fadeOut(4000, () => {
-    $("#landing").fadeOut(2000 , () => {
+  $(".lds-hourglass").fadeOut(3100, () => {
+    $("#landing").fadeOut(1500 , () => {
       $('body').css("overflow-y" , 'auto')
     });
   })
